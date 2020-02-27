@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Menu.h"
 using namespace std;
 
 //TODO: Implement this code from the scratch
@@ -8,6 +9,7 @@ using namespace std;
  */
 
 int main() {
-	cout << "Implement your code" << endl;
+	Menu menu;
+	menu.show();
 	return 0;
 }
